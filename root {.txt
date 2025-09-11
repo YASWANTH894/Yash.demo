@@ -1,0 +1,33 @@
+:root {
+  --green-dark: #3A4E3C;
+  --green-medium: #405230;
+  --green-light: #455C2D;
+  --font-ubuntu: 'Ubuntu Condensed', sans-serif;
+}
+
+body {
+  font-family: var(--font-ubuntu);
+  background-color: #f9faf9;
+  color: var(--green-dark);
+  margin: 0; padding: 0;
+}
+
+header, footer {
+  background-color: var(--green-medium);
+  color: white;
+  padding: 1rem 2rem;
+}
+
+section {
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 1rem;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(58, 78, 60, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
